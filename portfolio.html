@@ -1,34 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Homework-2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./сss/styles.css" />
   </head>
-
   <body>
-    <!-- Шапка сайту -->
-    <header>
+    <!-- Шапка сайта  -->
+    <header class="header">
+      <a class="logo" href="./index.html" lang="en"
+        >Web<spam class="spam">Studio</spam></a
+      >
       <nav>
-        <a href="./index.html">WebStudio</a>
-
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <ul class="navigation">
+          <li><a class="nav-link" href="./index.html ">Студия</a></li>
+          <li>
+            <a class="nav-link current" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li><a class="nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
+      <ul class="contacts">
+        <li>
+          <a class="mail nav-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="phone nav-link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h1 class="visually-hidden">Портфолио</h1>
+        <ul class="item-botton">
+          <li class="list">
+            <button class="button-item active" type="button">Все</button>
+          </li>
+          <li class="list">
+            <button class="button-item" type="button">Веб-сайты</button>
+          </li>
+          <li class="list">
+            <button class="button-item" type="button">Приложения</button>
+          </li>
+          <li class="list">
+            <button class="button-item" type="button">Дизайн</button>
+          </li>
+          <li class="list">
+            <button class="button-item" type="button">Маркетинг</button>
+          </li>
+        </ul>
+
+        <!-- <h2 class="visually-hidden">Портфолио</h2> -->
+        <ul class="portfolio-items">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <img src="./images/veb-site-1.jpg" alt="Веб-сайт" width="370" />
+            <h3 class="naim-portfolio">Технокряк</h3>
+            <p class="naim-project">Веб-сайт</p>
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <img src="./images/dizain-2.jpg" alt="Постер" width="370" />
+            <h3 class="naim-portfolio">Постер New Orlean vs Golden Star</h3>
+            <p class="naim-project">Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/restoran-3.jpg"
+              alt="Ресторан Seafood"
+              width="370"
+            />
+            <h3 class="naim-portfolio">Ресторан Seafood</h3>
+            <p class="naim-project">Приложение</p>
+          </li>
+          <li>
+            <img
+              src="./images/marketing-4.jpg"
+              alt="Проект Prime"
+              width="370"
+            />
+            <h3 class="naim-portfolio">Проект Prime</h3>
+            <p class="naim-project">Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/prilozenie-5.jpg"
+              alt="Проект Boxes"
+              width="370"
+            />
+            <h3 class="naim-portfolio">Проект Boxes</h3>
+            <p class="naim-project">Приложение</p>
+          </li>
+          <li>
+            <img
+              src="./images/website-6.jpg"
+              alt="Inspiration has no Borders"
+              width="370"
+            />
+            <h3 class="naim-portfolio" lang="en">Inspiration has no Borders</h3>
+            <p class="naim-project">Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/izdanie-7.jpg"
+              alt="Издание Limited Edition"
+              width="370"
+            />
+            <h3 class="naim-portfolio">Издание Limited Edition</h3>
+            <p class="naim-project">Дизайн</p>
+          </li>
+          <li>
+            <img src="./images/proekt-8.jpg" alt="Проект LAB" width="370" />
+            <h3 class="naim-portfolio">Проект LAB</h3>
+            <p class="naim-project">Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/prilozenie-9.jpg"
+              alt="Growing Business"
+              width="370"
+            />
+            <h3 class="naim-portfolio" lang="en">Growing Business</h3>
+            <p class="naim-project">Приложение</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Футер -->
+    <footer class="footer">
+      <a class="logo" href="./index.html" lang="en"
+        >Web<spam class="spam-footer">Studio</spam></a
+      >
+      <address>
+        <ul>
+          <li class="list">
+            <a class="adres" href="https://goo.gl/maps/tTvtVg3kFpa2BGbG8"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li class="list">
+            <a class="mail-footer nav-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="list">
+            <a class="phone-footer nav-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
-    </header>
+    </footer>
   </body>
 </html>
