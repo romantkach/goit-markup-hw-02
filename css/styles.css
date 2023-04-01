@@ -7,10 +7,6 @@
 
 body {
    font-family: "Roboto", sans-serif;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
    color: var(--brand-color);
    background-color: var(--background-color);
 }
@@ -21,7 +17,6 @@ body {
 
 .nav-logo {
    font-family: "Raleway", sans-serif;
-   font-style: normal;
    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
@@ -37,7 +32,6 @@ body {
 }
 
 .nav {
-   font-style: normal;
    font-weight: 500;
    font-size: 16px;
    line-height: 24px;
@@ -70,7 +64,6 @@ body {
 }
 .hero-title {
    font-family: "Roboto";
-   font-style: normal;
    font-weight: 700;
    font-size: 56px;
    text-align: center;
@@ -108,7 +101,6 @@ body {
 
 .title {
    font-family: "Roboto";
-   font-style: normal;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
@@ -129,7 +121,6 @@ body {
 }
 .team-title {
    font-family: "Roboto";
-   font-style: normal;
    font-weight: 500;
    font-size: 20px;
    line-height: 24px;
@@ -139,7 +130,6 @@ body {
 }
 .team-posicion {
    font-family: "Roboto";
-   font-style: normal;
    font-weight: 400;
    font-size: 16px;
    line-height: 24px;
@@ -152,7 +142,6 @@ body {
 }
 .footer-logo {
    font-family: "Raleway", sans-serif;
-   font-style: normal;
    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
