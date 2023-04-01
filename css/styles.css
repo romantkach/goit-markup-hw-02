@@ -60,7 +60,7 @@ body {
 }
 
 .hero {
-   background-color: #2e2f42;
+   background-color: var(--header-link-color);
 }
 .hero-title {
    font-family: "Roboto";
